@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    font-family: sans-serif;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto ;
+    height: 100%;
+    padding: 10px;
+}
+
+div :hover{ 
+    transform: scale(0.9,0.9);
+}
+
+div.valeur-copier{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+.title{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+.un{
+    background-color: blue;
+    height: 100%;
+    color: grey;
+}
+
+.deux{
+    background-color: cyan;
+    height: 100%;
+    color: grey;
+}
+.trois{
+    background-color: rgb(129, 31, 221);
+    height: 100%;
+    color: grey;
+}
+.quatre{
+    background-color: pink;
+    color: grey;
+    height: 100%;
+}
+.cinq{
+    background-color: orange;
+    height: 150px;
+    color: grey;
+}
+.six{
+    background-color: cyan;
+    color: grey;
+    height: 100%;
+}
+
+.sept{
+    background-color:black;
+    height: 100%;
+    color: grey;
+}
+.huit{
+    background-color: green;
+    color: grey;
+    height: 100%;
+}
+.neuf{
+    background-color: greenyellow;
+    color: grey;
+    height: 100%;
+}
+.dix{
+    background-color: yellow;
+    color: grey;
+    height: 150px;
+}
+.onze{
+    background-color: rgb(252, 0, 0);
+    height: 150px;
+    color: grey;    
+}
+
+.douze{
+    background-color: burlywood;
+    height: 150px;
+    color: grey;
+    
+}
+.treize{
+    background-color: royalblue;
+    height: 150px;
+    color: grey;
+}
+.quatorze{
+    background-color: rgb(228, 26, 167);
+    height: 150px;
+    color: grey;
+    
+}
+.quinze{
+    background-color: rgb(121, 81, 8);
+    height: 150px;
+    color: grey;
+}
+.seize{
+    background-color: rgb(235, 55, 55);
+    height: 150px;
+    color: grey;    
+}
+
+.dixsept{
+    background-color: rgb(165, 9, 100);
+    height: 150px;
+    color: grey;
+}
+.dixhuit{
+    background-color: green;
+    height: 150px;
+    color: grey;
+}
+.dixneuf{
+    background-color: rgb(180, 125, 134);
+    height: 150px;
+    color: grey;
+}
+.vingt{
+    background-color: rgb(218, 156, 42);
+    height: 150px;
+    color: grey;
+}
